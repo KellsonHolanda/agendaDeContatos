@@ -1,0 +1,105 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+}
+
+body {
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 781px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 2rem;
+    background-color:aliceblue;
+    height: 32rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 41px;
+    font-weight: bold;
+    margin: 7px;
+}
+
+form input {
+    font-size: 20px;
+    background-color: #acadab62;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 56px;
+}
+
+#btn img {
+    width: 20px;
+    margin: 4px;
+}
+
+#telefone {
+    width: 177px;
+}
+
+form button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #000851 0%, #1CB5E0 100%);
+    background-size: 500% 100%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    animation: animacaoGradiente 2s infinite alternate;
+}
+
+@keyframes animacaoGradiente {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+
+table {
+    width: 100%
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 8px 0;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+td:hover {
+    box-shadow: 5px 2px 8px #858a91;
+}
